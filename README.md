@@ -29,6 +29,7 @@ The below screen displays the data when you choose the slicer for 2018 and spain
 ![image](https://user-images.githubusercontent.com/50295990/235180282-f9a47ef4-2d66-4c3e-9033-8af688efbd0f.png)
 
 To calaulate the credit category using switch statement is necessary which is as follows:-
+
 credit_score_category = SWITCH(TRUE(),Bank_Churn[CreditScore]>=800 && Bank_Churn[CreditScore]<=850,"Excellent",
 Bank_Churn[CreditScore]>=800 && Bank_Churn[CreditScore]<=850,"Excellent",
 Bank_Churn[CreditScore]>=740 && Bank_Churn[CreditScore]<=799,"Very Good",
