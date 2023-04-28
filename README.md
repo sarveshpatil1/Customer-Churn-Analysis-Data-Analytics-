@@ -30,18 +30,19 @@ The below screen displays the data when you choose the slicer for 2018 and spain
 
 To calaulate the credit category using switch statement is necessary which is as follows:-
 
-credit_score_category = SWITCH(TRUE(),Bank_Churn[CreditScore]>=800 && Bank_Churn[CreditScore]<=850,"Excellent",
-Bank_Churn[CreditScore]>=800 && Bank_Churn[CreditScore]<=850,"Excellent",
+credit_score_category = SWITCH(TRUE(),Bank_Churn[CreditScore]>=800 && Bank_Churn[CreditScore]<=850,"Excellent", 
+Bank_Churn[CreditScore]>=800 && Bank_Churn[CreditScore]<=850,"Excellent", 
 Bank_Churn[CreditScore]>=740 && Bank_Churn[CreditScore]<=799,"Very Good",
-Bank_Churn[CreditScore]>=670 && Bank_Churn[CreditScore]<=739,"Good",
-Bank_Churn[CreditScore]>=580 && Bank_Churn[CreditScore]<=669,"Fair",
-Bank_Churn[CreditScore]>=300 && Bank_Churn[CreditScore]<=579,"Poor")
+Bank_Churn[CreditScore]>=670 && Bank_Churn[CreditScore]<=739,"Good", 
+Bank_Churn[CreditScore]>=580 && Bank_Churn[CreditScore]<=669,"Fair", 
+Bank_Churn[CreditScore]>=300 && Bank_Churn[CreditScore]<=579,"Poor") 
 
 This screen below displays the churn percentage on month-month and YoY basis with a small visual hint that reprents if there is a decrease or increase of customers
 
 ![image](https://user-images.githubusercontent.com/50295990/235181031-88fd8457-2a49-4266-a0f7-9ac19ae86bcf.png)
 
 I have added a new measure churn% to calculate the percentage which goes by:-
+
 churn % = 
 var EC= [CustomersExited]
 var TC=[Total Customers]
