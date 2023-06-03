@@ -22,11 +22,11 @@ In this project, I used the following steps to create the customer churn analysi
 # Report 1
 **This screen below displays the information about the different category of people leaving the bank**
 
-![image](https://user-images.githubusercontent.com/50295990/235179400-b43278df-5c3c-4901-a233-be06130acff3.png)
+![image](https://github.com/sarveshpatil1/Customer-Churn-Analysis-Data-Analytics-/assets/50295990/00ae3d90-95cc-4d64-a4f4-2d3548e727b2)
 
 **The below screen displays the data when you choose the slicer for 2018 and spain**
 
-![image](https://user-images.githubusercontent.com/50295990/235180282-f9a47ef4-2d66-4c3e-9033-8af688efbd0f.png)
+![image](https://github.com/sarveshpatil1/Customer-Churn-Analysis-Data-Analytics-/assets/50295990/eb4a23e9-e978-4ded-818a-a912d018d969)
 
 To calaulate the credit category using switch statement is necessary which is as follows:-
 
@@ -41,7 +41,7 @@ Bank_Churn[CreditScore]>=300 && Bank_Churn[CreditScore]<=579,"Poor")_
 # Report 2
 **This screen below displays the churn percentage on month-month and YoY basis with a small visual hint that reprents if there is a decrease or increase of customers**
 
-![image](https://user-images.githubusercontent.com/50295990/235181031-88fd8457-2a49-4266-a0f7-9ac19ae86bcf.png)
+![image](https://github.com/sarveshpatil1/Customer-Churn-Analysis-Data-Analytics-/assets/50295990/b9ee2e70-7fe3-4e94-8662-3b9757684a9b)
 
 I have added a new measure churn% to calculate the percentage which goes by:-
 
